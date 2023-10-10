@@ -23,19 +23,6 @@ const Message = styled.p`
   font-weight: bold;
 `;
 const Text = styled.p``;
-const Button = styled.button`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #363062;
-  color: #f5f5f5;
-  border: none;
-  height: 40px;
-  padding: 0 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1rem;
-`;
 
 function App() {
   const [text, setText] = useState<string>("");
